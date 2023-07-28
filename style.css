@@ -1,0 +1,40 @@
+*{
+    width: 1200px;
+    margin: 0auto;
+}
+.container{
+   height: 1000px;
+   width: 1200px;
+   margin: 0 auto;
+  
+
+}
+.barras{
+    display: flex;
+    flex-direction: column;
+}
+
+span{
+    background-color: blueviolet;
+    padding: 4px;
+    margin-top: 10px;
+    margin-right: 8px;
+     border-radius: 6px;
+    color: white;
+    width: 100px;
+    margin-top: 10px;
+}
+
+input{
+    width: 300px;
+}
+
+button{
+    height: 30px;
+    width: 100px;
+    border-radius: 4px;
+    color: white;
+    background-color: blueviolet;
+    margin-top: 10px;
+    margin-left: 25px;
+}

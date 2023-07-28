@@ -4,13 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="container">
 
-    </div>
+    <div class="container">
+        <div class="barras"> 
+    <span >Nome:</span> <input id="nome" type="text">
+    <span >Email: </span> <input id="email" type="text">
+    <span >Telefone: </span> <input id="telefone" type="text">
 
-    <h1>hello word</h1>
+    <button onclick="salvar()">Salvar </button>
+
+    <h6 id="resultadoNome"></h6>
+    <h6 id="resultadoEmail"></h6>
+    <h6 id="resultadoTelefone"></h6>
+
+</div>
+</div>
     
     <script src="script.js"></script>
 </body>
