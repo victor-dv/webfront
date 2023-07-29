@@ -18,3 +18,5 @@ function salvar(){
 resultadoTelefone.textContent = telefone.value
 
 }
+
+
