@@ -12,11 +12,27 @@ function calculo(operacao){
             return
         }
         resultado.textContent = finalResult
+       
+        if( finalResult >= 0 & finalResult <= 50){
+            resultado.style.color = "red"
+        }else if( finalResult >= 50 & finalResult <=100){
+            resultado.style.color = "blue"
+        }else{
+            resultado.style.color = "green"
+        }
+
+      
     }catch(error){
         alert(error)
     }
 
 }
+
+/* Maior q 0 === cor vermelha
+Maior 50 === cor azul
+Maior 100 == cot verde
+
+*/
 
 
     

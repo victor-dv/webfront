@@ -1,0 +1,13 @@
+body{
+    margin: 0 auto;
+    padding: 0px;
+    background-color: black;
+    color: aliceblue;
+    
+}
+
+#number1,
+#number2{
+    background-color: rgb(55, 55, 58);
+    color: greenyellow;
+}
