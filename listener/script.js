@@ -14,9 +14,15 @@ const userName = document.getElementById("nome")
 const userProfissao = document.getElementById("profissao")
 const userEmail = document.getElementById("email")
 
+//começando atividade checked
 buttonAdd.addEventListener('click', ()=>{
 
-const novaTag = document.createElement('div')
+  const generoMasc = document.getElementById("masculino")
+  const generoFem = document.getElementById("feminino")
+  const novaTag = document.createElement('div')
+
+if(generoMasc.Checked = true){
+
 novaTag.classList.add("flip-card")
 novaTag.innerHTML = `
 <div class="flip-card-inner">
@@ -28,11 +34,23 @@ novaTag.innerHTML = `
     <p>${userProfissao.value}</p>
     <p>${userEmail.value}</p>
   </div>
-
 `
-
+}
+if(generoFem.Checked = true){
+  novaTag.classList.add("flip-card")
+  novaTag.innerHTML = `
+  <div class="flip-card-inner">
+  <div class="flip-card-front">
+  <img src="../img/feme.png" style="width:300px;height:300px;">
+  </div>
+  <div class="flip-card-back">
+  <h1>${userName.value}</h1>
+  <p>${userProfissao.value}</p>
+  <p>${userEmail.value}</p>
+  </div>
+  `
+}
 minhaDiv.appendChild(novaTag)
-
 
 }
 )
