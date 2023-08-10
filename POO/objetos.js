@@ -1,9 +1,10 @@
-//Criando objeto JavaScript 
-//1. Forma Literal
+//Criando objeto JavaScript (chave: valor)
+//1. Forma Literal 
 const userName = document.getElementById("name") 
 const prod = document.getElementById("product")
 const color = document.getElementById("cor")
 const button = document.getElementById("btn")
+
 
 const person = {
     name: "Samuel Santos",
@@ -40,23 +41,27 @@ calcAge: function(){
     currentData = anoAtual - this.born;
 
     if(mesAtual < this.mes || mesAtual == this.mes && diaAtual < this.day ){
-        return currentData 
+        return currentData, mesAtual
         
-
     }
 
 
-
-
-
-  /*   const currentData = this.hoje.getFullYear() - this.born.getFullYear()
-    if(new Date(this.hoje.getFullYear(), this.hoje.getMonth(), this.hoje.getDate()) <
-    new Date (this.hoje.getFullYear(), this.mes.getMonth(), this.born.getDate() ) ) 
-    return currentData.getFullYear() - this.born;
-    return currentData */
-
 }
 }
+
+/* Array */
+/* let pessoas = [person, person, person]
+console.log(pessoas) */
+
+/* for (let index = 0; index < rickyNmorty.length; index++) {
+    const urlImage = rickyNmorty[index].image;
+
+    let myDiv = document.createElement('div')
+    myDiv.innerHTML = `<img src="${urlImage}" alt = ""`
+
+    container.appendChild(myDiv)
+    
+} */
 
  //atributos
 
