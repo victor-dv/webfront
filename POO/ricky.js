@@ -1,6 +1,10 @@
-const main =  document.getElementById("main")
-const fav =  document.getElementById("fav")
+const userName = document.getElementById("name")
+const prod = document.getElementById("product")
+const color = document.getElementById("cor")
+const button = document.getElementById("btn")
+const main = document.getElementById("main")
 
+let currentData = new Date(Date.now())
 
 
 const rickNmorty =
@@ -669,30 +673,70 @@ const rickNmorty =
         }
     ]
 
-
-    for (let index = 0; index < rickNmorty.length; index++) {
-        const {image, name, gender, species, status} = rickNmorty[index];
+//Criar função ara reaproveitar o código
+mountCards(rickNmorty)
+function mountCards(data){
+    for (let index = 0; index < data.length; index++) {
+        const {id,image, name, gender, species, status} = data[index];
         
     
         let myDiv = document.createElement('div')
-        myDiv.classList.add('card')
+        myDiv.classList.add('card') // add card
+
         myDiv.innerHTML =
         `<img src="${image}" alt="">
         <h5>${name}</h5>
         <h5>${gender}</h5>
         <h5>${species}</h5>
         <h5>${status}</h5>
+        <br>
+        <button id= "${id}">Favorito</button>
+    
         `
      main.appendChild(myDiv)
     }
+    }
 
-    myDiv = document.querySelector("div");
+    let favoritos = []
+    const btnFav = document.querySelector('button')
+
+    for (let index = 0; index < btnFav.length; index++) {
+        btnFav[index].addEventListener('click',() => {
+
+            const myFav = rickNmorty.find(element = element.id == btnFav[index].id)
+            favoritos.push(myFav)
+        }
+        )
+
+        document.getElementById("favoritos").addEventListener('clic', ()=>{
+
+            if (favoritos.length === 0 ) {
+                alert('Sem favoritos')
+                return
+            }
+            main.innerHTML = ""
+            mountCards(favoritos) 
+        }
+        )
+
+        document.getElementById('todos').addEventListener('click', ()=>{
+            main.innerHTML= ""
+            mountCards(rickNmorty)
+
+        })
+
+        
+    }
+
    
 
-    main.addEventListener('click', ()=>{
 
+
+    /* myDiv = document.querySelector("div");
+    myDiv.querySelector("#button").addEventListener('click', ()=>{
+       
      
-        const favorito = document.createElement('div')
+        let favorito = document.createElement('div')
         favorito.classList.add('card')
         favorito.innerHTML =
         `<img src="${image}" alt="">
@@ -700,8 +744,11 @@ const rickNmorty =
         <h5>${gender}</h5>
         <h5>${species}</h5>
         <h5>${status}</h5>
+        <br>
+        <button id= "button">Favorito</button>
+    
         `
         fav.appendChild(favorito)
 
     }
-    )
+    ) */

@@ -20,3 +20,14 @@
 img {
  width: 100%
 }
+
+#favoritos, #todos {
+    background-color: blueviolet;
+    display:inline;
+    position: absolute;
+    top: 10px;
+}
+
+#todos { 
+    top: 35px;
+}
