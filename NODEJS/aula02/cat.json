@@ -1,0 +1,31 @@
+[{
+    "nome:":"Budweiser",
+    "raca": "Gato de rua",
+    "imagem": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fs2-galileu.glbimg.com%2F5SLC0tPIEXMxCCaVyQci3USPMgg%3D%2F0x0%3A1920x1280%2F924x0%2Fsmart%2Ffilters%3Astrip_icc()%2Fi.s3.glbimg.com%2Fv1%2FAUTH_fde5cd494fb04473a83fa5fd57ad4542%2Finternal_photos%2Fbs%2F2023%2F5%2FJ%2FiJPKfsTmyjnvEDZLe2aw%2Fthomas-park-on6brqrn5ly-unsplash.jpg&tbnid=NlsZN5nj7ZhaFM&vet=12ahUKEwipmLz88OSAAxXyC9QKHbsNAkEQMygJegQIARBR..i&imgrefurl=https%3A%2F%2Frevistagalileu.globo.com%2Fsociedade%2Fnoticia%2F2023%2F06%2Faustralia-mata-50-mil-gatos-de-rua-por-ano-e-esta-tentando-mudar-isso.ghtml&docid=DXknrKtH1hNWgM&w=924&h=616&q=gatos%20de%20rua&ved=2ahUKEwipmLz88OSAAxXyC9QKHbsNAkEQMygJegQIARBR",
+    "descricao": "Esse gato é mo gente fina!!"
+},
+{
+    "nome:":"Garfield",
+    "raca": "Persa",
+    "imagem": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fi0.statig.com.br%2Fbancodeimagens%2F0l%2Fb4%2Fxl%2F0lb4xln09s6ptabwkf70u73jp.jpg&tbnid=h4ajaCi8FnobKM&vet=12ahUKEwj7yrSk8eSAAxXTB9QKHQuZDPUQMygAegQIARBt..i&imgrefurl=https%3A%2F%2Fcanaldopet.ig.com.br%2Fguia-bichos%2Fgatos%2Fgato-persa%2F57a241d01d9fea5e7dbda8d7.html&docid=6JMLn8D3n9W9LM&w=316&h=316&q=persa&ved=2ahUKEwj7yrSk8eSAAxXTB9QKHQuZDPUQMygAegQIARBt",
+    "descricao": "Esse gato sempre é gordo"
+},
+{
+    "nome:":"Maitueee",
+    "raca": "sphynx (É o gato do maitueeee)",
+    "imagem": "https://www.google.com/imgres?imgurl=https%3A%2F%2Frevistaamora.com.br%2Fwp-content%2Fuploads%2F2021%2F03%2FIMG-20210305-WA0094.jpg&tbnid=d6wMNMFaaVHSkM&vet=12ahUKEwjYj-bN8eSAAxXojJUCHT9SACQQMygBegQIARBu..i&imgrefurl=https%3A%2F%2Frevistaamora.com.br%2Fgatos-o-sphynx-elf-vai-te-deixar-apaixonado%2F&docid=upjnzRHt_nKzyM&w=748&h=746&q=gato%20sphynx&ved=2ahUKEwjYj-bN8eSAAxXojJUCHT9SACQQMygBegQIARBu",
+    "descricao": "É o tal do gato pelado"
+},
+{
+    "nome:":"Onça",
+    "raca": "Bengal",
+    "imagem": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.patasdacasa.com.br%2Fsites%2Fpatasdacasa%2Ffiles%2Fnoticias%2F2021%2F10%2Fgatos-bengal-caracteristicas-personalidade-saude-saiba-tudo-sobre-a-raca-galeria-com-30-fotos.jpg&tbnid=UKviFXSwrsVpyM&vet=12ahUKEwiIm7H48eSAAxXsrZUCHWEiCzUQMygAegQIARBt..i&imgrefurl=https%3A%2F%2Fwww.patasdacasa.com.br%2Fnoticia%2Fgatos-bengal-caracteristicas-personalidade-saude-saiba-tudo-sobre-raca-galeria-com-30-fotos&docid=Ufv5VYduVLZ6dM&w=768&h=403&q=gato%20bengal&ved=2ahUKEwiIm7H48eSAAxXsrZUCHWEiCzUQMygAegQIARBt",
+    "descricao": "É uma onça"
+},
+{
+    "nome:":"tom",
+    "raca": "gato siames",
+    "imagem": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.folhape.com.br%2Fupload%2Fdn_arquivo%2F2020%2F11%2Fcat-2068462-1920.jpg&tbnid=ke96TchzcslQGM&vet=12ahUKEwjS4euS8uSAAxVal5UCHTOlBy8QMygAegQIARBJ..i&imgrefurl=https%3A%2F%2Fwww.folhape.com.br%2Fcolunistas%2Ffolha-pet%2Fcolecionadores-de-fas-os-siameses-sao-inteligentes-comunicativos-e-brincalhoes-conheca-curiosidades-da-raca%2F21715%2F&docid=Nd9u0rvae7uabM&w=1440&h=806&q=gato%20siames&ved=2ahUKEwjS4euS8uSAAxVal5UCHTOlBy8QMygAegQIARBJ",
+    "descricao": "É um gato comum"
+}
+]

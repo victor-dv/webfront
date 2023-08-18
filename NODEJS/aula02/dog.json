@@ -1,0 +1,33 @@
+[{
+    "nome:":"Caramelo",
+    "raca": "Caramelo du Mal",
+    "imagem": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.petz.com.br%2Fblog%2Fracas%2Fvira-lata-caramelo%2F&psig=AOvVaw1S4ZtqeYDYZSMfbEiZOUQG&ust=1692402271129000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCJil7Onw5IADFQAAAAAdAAAAABAE",
+    "descricao": "Esse Caramelo ama canelas !!" 
+},
+{
+    "nome:":"Dufy",
+    "raca": "Pretinho du Mal",
+    "imagem": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fblog-static.petlove.com.br%2Fwp-content%2Fuploads%2F2018%2F11%2Fscottish-terrier-filhote.jpg&tbnid=_kKkwgbiKW90DM&vet=12ahUKEwiMnt2a6eSAAxVOAbkGHXexAxUQMygUegUIARCYAQ..i&imgrefurl=https%3A%2F%2Fwww.petlove.com.br%2Fdicas%2Fraca-de-cachorro-preto&docid=BuCyHoWLjF68KM&w=600&h=400&q=pretocachorro&ved=2ahUKEwiMnt2a6eSAAxVOAbkGHXexAxUQMygUegUIARCYAQ",
+    "descricao": "Dizem que ele e o caramelo andam juntos !!"
+},
+{
+    "nome:":"Skol",
+    "raca": "Doberman du Mal",
+    "imagem": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.infoescola.com%2Fwp-content%2Fuploads%2F2010%2F08%2Fdoberman_223996249.jpg&tbnid=7tkk9oeYm13X6M&vet=12ahUKEwijldHe6eSAAxUSH7kGHW9EBZgQMygBegQIARBv..i&imgrefurl=https%3A%2F%2Fwww.infoescola.com%2Fanimais%2Fdoberman%2F&docid=7bZ3J50SNUczxM&w=2500&h=1667&q=doberman&ved=2ahUKEwijldHe6eSAAxUSH7kGHW9EBZgQMygBegQIARBv",
+    "descricao": "Doberman Bravo!!"
+},
+{
+    "nome:":"Heineken",
+    "raca": "Pit-Bul",
+    "imagem": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.petlove.com.br%2Fimages%2Fbreeds%2F193221%2Fprofile%2Foriginal%2Fpitbull-p.jpg%3F1532539293&tbnid=d1UWMuQqzjxKcM&vet=12ahUKEwil0qyI8OSAAxUhspUCHUclAOoQMygAegQIARBt..i&imgrefurl=https%3A%2F%2Fwww.petlove.com.br%2Fpitbull%2Fr&docid=p1N2VCBr76YfyM&w=640&h=640&q=pitbull&ved=2ahUKEwil0qyI8OSAAxUhspUCHUclAOoQMygAegQIARBt",
+    "descricao": "O amigo da vizinhaça !!"
+},
+{
+    "nome:":"Arya",
+    "raca": "Bul-dog",
+    "imagem": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fblog.polipet.com.br%2Fwp-content%2Fuploads%2F2022%2F07%2FBulldog-scaled.jpeg&tbnid=o--RL2PLBj1WNM&vet=12ahUKEwi-ssq98OSAAxWzIbkGHdEhCOQQMygDegQIARBz..i&imgrefurl=https%3A%2F%2Fblog.polipet.com.br%2Fsaiba-tudo-sobre-bulldog-ingles%2F&docid=GsP76pyagHL8wM&w=2560&h=1707&q=bulldog&ved=2ahUKEwi-ssq98OSAAxWzIbkGHdEhCOQQMygDegQIARBz",
+    "descricao": "O cachorro legal!!"
+}
+]
+
+
