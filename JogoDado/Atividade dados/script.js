@@ -1,44 +1,35 @@
 
 const img = document.querySelector('.dice')
 const player = document.getElementById("player--active")
-let numeroCurrent0 = 0
-let currentPlayer = 2
-const rollDice = document.querySelector('.btn--roll').addEventListener('click', function(){
+const player0 = document.querySelector(".player--0")
+const player1 = document.querySelector(".player--1")
+const score = document.querySelector(".score--0")
+let numeroCurrent = 0
+const rollDice = document.querySelector('.btn--roll').addEventListener('click', function () {
     let numeroAleatorio = Math.trunc(Math.random() * 6) + 1
-    switch(numeroAleatorio){
-        case 1:
-            img.setAttribute("src", "img/dice-1.png")
-            break;
-        case 2:
-            img.setAttribute("src", "img/dice-2.png")
-            break
-        case 3:
-            img.setAttribute("src","img/dice-3.png")
-            break
-        case 4:
-            img.setAttribute("src", "img/dice-4.png")
-            break
-        case 5:
-            img.setAttribute("src", "img/dice-5.png")
-            break
-        case 6:
-            img.setAttribute("src", "img/dice-6.png")
-          break
-    }
+    img.src = `img/dice-${numeroAleatorio}.png`
+    numeroCurrent += numeroAleatorio
+    const current0 = document.getElementById('current--0')
+    current0.textContent = numeroCurrent
 
-    numeroCurrent0 += numeroAleatorio
-    const current0 = document.getElementById('current--0').textContent = numeroCurrent0  
-  
-    if(numeroAleatorio === 1 ){
-        alert("proximo jogador")
+    if (numeroAleatorio === 1) {
+        numeroCurrent = 0
+        current0.textContent = 0
+        player0.classList.toggle('player--active')
+        player1.classList.toggle('player--active')
+   
+        if (player1.classList.toggle('player--active')) {
+            const current1 = document.getElementById('current--1')
+            numeroCurrent += numeroAleatorio
+            current1.textContent = numeroCurrent
+            alert("kakaka")
+        }
     }
 })
-currentPlayer = (currentPlayer == 2) ? 1 : 2
 
-const hold = document.querySelector('.btn--hold').addEventListener('click', function(){
-    const score0 = document.getElementById('score--0').textContent = numeroCurrent0
-    let numeroCurrent1 = 0
-    document.querySelector('.player--active')
-    numeroCurrent1 += numeroAleatorio
-    const current1 = document.getElementById('current--1').textContent = numeroCurrent1  
+const hold = document.querySelector('.btn--hold').addEventListener('click', function () {
+    score = current0.textContent
+    player1.classList.toggle('player--active')
+    player0.classList.toggle('player--active')
+
 })
